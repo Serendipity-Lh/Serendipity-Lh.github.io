@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+    <link href="./assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <!--<link href="./assets/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="./style.css" rel="stylesheet">
+    <link href="./assets/css/animate.css" rel="stylesheet">
+    <link href="./assets/css/bootsnav.css" rel="stylesheet">
+    <!--<link href="./assets/css/overwrite.css" rel="stylesheet">-->
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="screen.css">-->
+
+</head>
+<body data-spy="scroll" data-target="#about" data-offset="50">
+
+<!--header JS-->
+<script type="text/javascript" src="./assets/js/header.js"></script>
+<!--header JS over-->
+<!--<header id="headerPage"></header>-->
+
+<!--轮播-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="./images/lun-1.jpg" alt="轮播图1">
+            <div class="carousel-caption" style="font-size: 60px;">
+                恭 喜 发 财
+            </div>
+        </div>
+        <div class="item">
+            <img src="./images/lun-2.jpg" alt="轮播图2">
+            <div class="carousel-caption" style="font-size: 60px;">
+                大吉大利
+            </div>
+        </div>
+        <div class="item">
+            <img src="./images/lun-3.png" alt="轮播图3">
+            <div class="carousel-caption" style="font-size: 60px; margin-bottom: 280px">
+                财源滚滚
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!--轮播 END-->
+
+<!--产品中心-->
+<div id="product-center" class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <img src="./images/chan-1.jpg" alt="产品" class="img-rounded img-responsive">
+                </div>
+                <div class="panel-body">
+                    <center>产品</center>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <img src="./images/chan-2.jpg" alt="产品" class="img-rounded img-responsive">
+                </div>
+                <div class="panel-body">
+                    <center>产品</center>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <img src="./images/chan-3.jpg" alt="产品" class="img-rounded img-responsive">
+                </div>
+                <div class="panel-body">
+                    <center>产品</center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <img src="./images/chan-1.jpg" alt="产品" class="img-rounded img-responsive">
+                </div>
+                <div class="panel-body">
+                    <center>产品</center>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <img src="./images/chan-2.jpg" alt="产品" class="img-rounded img-responsive">
+                </div>
+                <div class="panel-body">
+                    <center>产品</center>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <img src="./images/chan-3.jpg" alt="产品" class="img-rounded img-responsive">
+                </div>
+                <div class="panel-body">
+                    <center>产品</center>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--产品中心 END-->
+
+<!--新闻中心-->
+<div class="news hidden-sm hidden-xs">
+    <div class="container">
+        <!--行业新闻-->
+        <div class="row clearfix business-news" style="margin-top: 8px;">
+            <div class="col-md-12 column">
+                <div class="row clearfix">
+                    <div class="col-md-4 column news-images  hidden-sm hidden-xs">
+                        <img class="thumbnail news-thumbnail" alt="140x140"
+                             src="./images/xingwen-2.jpg"/>
+                    </div>
+                    <div class="col-md-8 column text-intro">
+                        <div class="news-first">
+                            <div class="row clearfix header-line">
+                                <div class="col-md-2 column">
+                                    <button type="button" class="btn btn-warning news-tag">行业新闻</button>
+                                </div>
+                                <div class="col-md-6 column">
+                                    <h2 class="text-left">
+                                        Heading
+                                    </h2>
+                                </div>
+                                <div class="col-md-4 column">
+                                    <h5 class="text-warning">
+                                        这是行业新闻的标题.
+                                    </h5>
+                                </div>
+                            </div>
+                            <p>
+                                这里是行业新闻的内容...........这里是行业新闻的内容...........这里是行业新闻的内容...........这里是行业新闻的内容...........
+                                <span>
+                                    <a class="btn" href="#">查看更多 »</a>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="news-secend">
+                            <div class="row clearfix header-line">
+                                <div class="col-md-2 column">
+                                    <button type="button" class="btn btn-warning news-tag">行业新闻</button>
+                                </div>
+                                <div class="col-md-6 column">
+                                    <h2 class="text-left">
+                                        Heading
+                                    </h2>
+                                </div>
+                                <div class="col-md-4 column">
+                                    <h5 class="text-warning">
+                                        这是行业新闻的标题.
+                                    </h5>
+                                </div>
+                            </div>
+                            <p>
+                                这里是行业新闻的内容...........这里是行业新闻的内容...........这里是行业新闻的内容...........这里是行业新闻的内容...........
+                                <span>
+                                    <a class="btn" href="#">查看更多 »</a>
+                                </span>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>        <!--行业新闻 END-->
+        <!--公司新闻-->
+        <div class="row clearfix business-news" style="margin-top: 15px;">
+            <div class="col-md-12 column">
+                <div class="row clearfix">
+                    <div class="col-md-4 column news-images hidden-sm hidden-xs">
+                        <img class="thumbnail news-thumbnail" style="margin-top: 20px;" alt="140x140"
+                             src="./images/xingwen-1.jpg"/>
+                    </div>
+                    <div class="col-md-8 column text-intro">
+                        <div class="news-first">
+                            <div class="row clearfix header-line">
+                                <div class="col-md-2 column">
+                                    <button type="button" class="btn btn-success news-tag">公司新闻</button>
+                                </div>
+                                <div class="col-md-6 column">
+                                    <h2 class="text-left">
+                                        Heading
+                                    </h2>
+                                </div>
+                                <div class="col-md-4 column">
+                                    <h5 class="text-warning">
+                                        这是公司新闻的标题.
+                                    </h5>
+                                </div>
+                            </div>
+                            <p>
+                                这里是公司新闻的内容...........这里是公司新闻的内容...........这里是公司新闻的内容...........这里是行业新闻的内容...........
+                                <span>
+                                    <a class="btn" href="#">查看更多 »</a>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="news-secend">
+                            <div class="row clearfix header-line">
+                                <div class="col-md-2 column">
+                                    <button type="button" class="btn btn-success news-tag">公司新闻</button>
+                                </div>
+                                <div class="col-md-6 column">
+                                    <h2 class="text-left">
+                                        Heading
+                                    </h2>
+                                </div>
+                                <div class="col-md-4 column">
+                                    <h5 class="text-warning">
+                                        这是公司新闻的标题.
+                                    </h5>
+                                </div>
+                            </div>
+                            <p>
+                                这里是行业新闻的内容...........这里是行业新闻的内容...........这里是行业新闻的内容...........这里是行业新闻的内容...........
+                                <span>
+                                    <a class="btn" href="#">查看更多 »</a>
+                                </span>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--公司新闻  END-->
+    </div>
+
+</div>
+<!--新闻中心    END-->
+
+<!--关于我们-->
+<div class="container " id="about">
+    <div class="about-text" id="about-text">
+        <h1> 关于我们 --- </h1>
+        <div class="about-we-text">
+            汪永峰皮具养护中心是一家专业从事皮具维修、清洗、养护的公司。创始人坚持以技术为核心驱动力，通过互联网，智能终端，云服务等先进技术推动行业进步，持续为客户创造价值。我们主张开放，共赢，与同业伙伴合作创新，一起建立良性的生态系统，让更多的顾客体验到高标准服务。
+            汪永峰品牌创立于2009年，通过9年的发展，已经形成拥有6家直营店，1家加盟店的连锁企业。从最初的清洗,维修项目开始发展，通过不断探索，逐步增加皮装、箱包、家具用品、汽车内饰等项目，为顾客提供全方位的服务。
+            2018年汪永峰皮具养护中心对LOGO 、门店形象进行了一次全新的升级。设计师尝试将中国书法融入到作品中，配合黄色背景，既时尚又有年代感。店内环保的材质庄重却不奢华；紫色鲜花增添了几分活泼和典雅。
+            自主开发一套经营管理软件，通过此平台时刻与顾客保持更紧密的联系，增加用户体验。不断尝试新的思路，无疑将得到更多消费者的认可。 ...
+        </div>
+    </div>
+    <div class="about-image">
+        <img alt="140x140"
+             src="./images/about-1.png"/>
+    </div>
+</div>
+<!--关于我们    END-->
+
+<!--联系我们-->
+<div id="bj" data-300-top="background-position:0px -280px;"
+     data-430-top="background-position:0px 0px;;">
+    <div class="mengban">
+        <p class="p1"> 如果我们的努力工作,将为您带来愉快...</p>
+        <p class="p2"> 欢迎致电 24小时为您守候</p>
+        <p class="p3"><img alt="140x140" src="./images/phone.png" style="height: 30px; margin-bottom: 5px;"/> 152 4268
+            6515 </p>
+    </div>
+</div>
+<!--联系我们    END-->
+
+
+<!--导航-->
+<nav class="navbar navbar-default brand-center center-side bootsnav visible-lg-block">
+    <div class="container">
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand"  href="#brand"><img src="./images/logo-logo.png"  id="logo-rotate-in" alt=""></a>
+        </div>
+        <!-- End Header Navigation -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+                <li><a href="#">产品中心</a></li>
+                <li><a href="#">新网中心</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+<!--导航   END-->
+
+<!--footer-->
+<footer id="footerpage"></footer>
+<!--footer over-->
+
+
+
+<script type="text/javascript" src="./assets/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+<!--<script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>-->
+<script type="text/javascript" src="./assets/js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="./assets/js/skrollr.min.js"></script>
+<!--[if lt IE 9]>-->
+<script type="text/javascript" src="./assets/js/skrollr.ie.min.js"></script>
+<script type="text/javascript" src="./assets/js/bootsnav.js"></script>
+<!--自定义js-->
+<script type="text/javascript" src="./assets/js/my-js.js"></script>
+<script>
+
+</script>
+</body>
+</html>
